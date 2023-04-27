@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #f7f7f7!important;
+    font-weight: 600;
+    z-index: 1;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+
+}
+.nav-link{
+color:black!important
+
+}
+.nav-link:hover{
+    color: #af9a7d !important;
+}
+
+.container-fluid {
+    margin-left: 300px;
+}
+
+.logo {
+width: 250px !important;;
+}
+
+.nav-icon{
+    font-size:1.5rem;
+    color:#af9a7d
+}
+
+@media (max-width: 991px) {
+    .container-fluid {
+        margin-left: 0px;
+    }
+    
+}

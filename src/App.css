@@ -1,0 +1,61 @@
+body{
+  letter-spacing: 3px;
+
+}
+
+.line-title{
+  width:5rem;
+  height: 5px;
+  background: #af9a7d;
+  margin:15px auto
+}
+
+.room-title{
+  background-color: #cfcfcf;
+}
+
+.room{
+  box-shadow:2px 5px 3px 0px rgba(0,0,0,0.5);  
+  letter-spacing: 3px;
+  border-radius: 0px;
+}
+
+.room .room-badge{
+  border-radius: 0 0 15px 0px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.fetures-button{
+  background-color: #af9a7d;
+  color: black;
+  letter-spacing: 3px;
+  border-radius: 0px;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left: 50%;
+  display: none;
+  border: 3px solid #af9a7d;
+ }
+ .room:hover {
+  background: rgba(0, 0, 0,0.9);
+  box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.5);
+}
+ .room:hover img{
+   opacity: 0.3;
+  }
+  .room:hover .fetures-button{
+    transition-delay: 0.5s;
+    transition: all 0.3s linear;
+    display: block;
+  }
+  .room:hover .room-badge{
+     display: none;
+   }
+ 
+
+   .fetures-button:hover{
+      background-color: transparent;;
+      color:#af9a7d
+      
+   }

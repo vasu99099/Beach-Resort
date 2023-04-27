@@ -1,0 +1,15 @@
+.btn-room{
+background-color: #af9a7d;
+border: 3px solid #af9a7d;
+color: #222;;
+letter-spacing: 3px;
+border-radius: 0px;
+font-size: 16px;
+padding: 0.4rem 0.9rem;
+transition: all 0.3s linear;
+
+}
+.btn-room:hover{
+    background-color: transparent;
+    color: #af9a7d;
+}
